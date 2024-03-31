@@ -7,11 +7,11 @@ spec:
   revisionHistoryLimit: 1
   selector:
     matchLabels:
-      app: {{ application.controlCenter.labels.app }}
+      app: hyperswitch-server
   template:
     metadata:
       labels:
-        app: {{ application.controlCenter.labels.app }}
+        app: hyperswitch-server
   strategy:
     canary:
         maxSurge: 1
