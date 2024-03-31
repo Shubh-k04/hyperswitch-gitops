@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: hyperswitch-stack-application
+  namespace: argocd
 spec:
   destination:
   # providing 

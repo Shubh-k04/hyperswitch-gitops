@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: hyperswitch-stack-rollouts
+  namespace: argocd
 spec:
   replicas: 5
   revisionHistoryLimit: 1
