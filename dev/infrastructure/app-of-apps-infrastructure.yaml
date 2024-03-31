@@ -8,7 +8,7 @@ spec:
     project: default
     source:
         repoURL: 'https://github.com/Shubh-k04/hyperswitch-gitops.git'
-        targetRevision: master
+        targetRevision: HEAD
         path: "dev/sources" # path to the application manifests
     destination:
         server: 'https://kubernetes.default.svc'
