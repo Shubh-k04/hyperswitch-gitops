@@ -2,7 +2,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-name: argocd-notifications-cm
+    name: argocd-notifications-cm
+    namespace: argocd
 data:
 # Define a custom template for email notifications
 template.hyperswitch-template: |
